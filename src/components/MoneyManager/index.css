@@ -1,0 +1,95 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.app-container {
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+  padding: 50px 200px;
+}
+.money-manager-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 30vh;
+  background-size: 100% 100%;
+  border-radius: 20px;
+  padding: 80px;
+  margin-bottom: 20px;
+}
+.heading {
+  padding-bottom: 10px;
+}
+.money-manager-text {
+  color: #0b69ff;
+}
+.add-transaction-container {
+  border: 1px solid #cbd5e1;
+  width: 40%;
+  padding: 40px;
+  margin-right: 20px;
+}
+.add-transaction-heading {
+  margin-bottom: 20px;
+}
+.input-field {
+  width: 250px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+}
+.number-field {
+  width: 250px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+}
+.select-field {
+  width: 250px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+}
+
+.button {
+  background-color: #7c3aed;
+}
+
+.button {
+  background-color: #7c3aed;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.transaction-item-container {
+  border: 1px solid #cbd5e1;
+  width: 60%;
+  padding: 40px;
+}
+.transactions-container {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50px;
+}
+.history-heading {
+  margin-bottom: 20px;
+}
+.table-header-container {
+  list-style-type: none;
+  padding: 5px;
+}
+.header-list-items {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #cbd5e1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.header-cell {
+  width: 30%;
+  font-weight: 500;
+  font-size: 20px;
+}
