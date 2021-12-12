@@ -10,7 +10,7 @@ const TransactionItem = props => {
   return (
     <li className="history-list-item">
       <p className="data-cell">{title}</p>
-      <p className="data-cell">Rs {amount}</p>
+      <p className="data-cell data-sizing">Rs {amount}</p>
       <p className="data-cell">{type}</p>
       <button
         type="button"

@@ -21,3 +21,21 @@
   padding: 0px;
   cursor: pointer;
 }
+@media screen and (max-width: 992px) {
+  .data-cell {
+    width: 30%;
+    font-size: 18px;
+  }
+  .data-sizing {
+    width: 35%;
+  }
+  .delete-image {
+    height: 25px;
+    width: 25px;
+  }
+}
+@media screen and (max-width: 567px) {
+  .data-cell {
+    font-size: 16px;
+  }
+}

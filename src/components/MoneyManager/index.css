@@ -12,7 +12,6 @@
 }
 .money-manager-container {
   background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
-  height: 30vh;
   background-size: 100% 100%;
   border-radius: 20px;
   padding: 80px;
@@ -92,4 +91,85 @@
   width: 30%;
   font-weight: 500;
   font-size: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .app-container {
+    padding: 30px 80px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .input-field {
+    width: 200px;
+  }
+  .number-field {
+    width: 200px;
+  }
+  .select-field {
+    width: 200px;
+  }
+  .add-transaction-heading {
+    font-size: 20px;
+  }
+  .add-transaction-container {
+    padding: 20px;
+  }
+  .transaction-item-container {
+    padding: 20px;
+  }
+  .header-cell {
+    width: 30%;
+    font-size: 18px;
+  }
+  .cell-sizing {
+    width: 35%;
+  }
+  .history-heading {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .transactions-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .add-transaction-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .transaction-item-container {
+    width: 100%;
+  }
+  .input-field {
+    width: 100%;
+  }
+  .number-field {
+    width: 100%;
+  }
+  .select-field {
+    width: 100%;
+  }
+  .money-manager-container {
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .input-field {
+    width: 100%;
+  }
+  .number-field {
+    width: 100%;
+  }
+  .select-field {
+    width: 100%;
+  }
+  .money-manager-container {
+    width: 100%;
+  }
+  .header-cell {
+    font-size: 16px;
+  }
+  .app-container {
+    padding: 20px;
+  }
 }

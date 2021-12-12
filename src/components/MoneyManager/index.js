@@ -211,7 +211,7 @@ class MoneyManager extends Component {
               <ul className="table-header-container">
                 <li className="header-list-items">
                   <p className="header-cell">Title</p>
-                  <p className="header-cell">Amount</p>
+                  <p className="header-cell cell-sizing">Amount</p>
                   <p className="header-cell">Type</p>
                 </li>
                 {transactionsList.map(eachTransaction => (
